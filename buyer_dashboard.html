@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyer Dashboard</title>
+    <link rel="stylesheet" href="buyer_dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Buyer Dashboard</h1>
+
+        <div class="filter-container">
+            <label for="placeFilter">Filter by Place:</label>
+            <input type="text" id="placeFilter" placeholder="Enter place to filter...">
+        </div>
+
+       
+        <ul class="property-list" id="filteredProperties">
+        </ul>
+    </div>
+    
+        <ul id="filteredProperties" class="property-list"></ul>
+        <div class="pagination">
+            <button id="prevPage">Previous</button>
+            <span id="pageInfo"></span>
+            <button id="nextPage">Next</button>
+        </div>
+    </div>
+    
+
+    <script src="buyer_dashboard.js"></script>
+</body>
+</html>
